@@ -26,13 +26,13 @@ internal sealed class LinterGitHookInstallTask(
         """.trimIndent()
 }
 
-internal class InstallPreCommitHookTask :
+internal abstract class InstallPreCommitHookTask :
     LinterGitHookInstallTask(
         "pre-commit",
         "lintKotlin"
     )
 
-internal class InstallPrePushHookTask :
+internal abstract class InstallPrePushHookTask :
     LinterGitHookInstallTask(
         "pre-push",
         "formatKotlin"
