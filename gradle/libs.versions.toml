@@ -23,3 +23,6 @@ kotlin-linter = { id = "org.jmailen.kotlinter", version.ref = "kotlinter" }
 spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
 kotlin-plugin-spring = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlin" }
 spring-dependency-management = { id = "io.spring.dependency-management", version.ref = "spring-dependency-management" }
+
+#root
+jvm-library = { id = "jvm.library" }
