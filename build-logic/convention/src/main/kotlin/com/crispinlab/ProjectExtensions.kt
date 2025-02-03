@@ -23,7 +23,7 @@ internal fun Project.plugins(vararg pluginId: String) {
 
 internal fun Project.configureKotlinJvm() {
     extensions.configure<KotlinJvmProjectExtension> {
-        jvmToolchain(17)
+        jvmToolchain(21)
     }
 }
 
