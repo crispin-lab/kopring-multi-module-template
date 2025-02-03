@@ -20,5 +20,9 @@ gradlePlugin {
             id = "kotest.library"
             implementationClass = "KotestLibraryConventionPlugin"
         }
+        register("kopringLibrary") {
+            id = "kopring.library"
+            implementationClass = "KopringLibraryConventionPlugin"
+        }
     }
 }
