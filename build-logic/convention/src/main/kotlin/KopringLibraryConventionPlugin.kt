@@ -10,7 +10,8 @@ class KopringLibraryConventionPlugin : Plugin<Project> {
             plugins(
                 "org.springframework.boot",
                 "io.spring.dependency-management",
-                "org.jetbrains.kotlin.plugin.spring"
+                "org.jetbrains.kotlin.plugin.spring",
+                "spring.test.library"
             )
 
             dependencies {

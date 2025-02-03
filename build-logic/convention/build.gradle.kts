@@ -24,5 +24,9 @@ gradlePlugin {
             id = "kopring.library"
             implementationClass = "KopringLibraryConventionPlugin"
         }
+        register("springTestLibrary") {
+            id = "spring.test.library"
+            implementationClass = "SpringTestLibraryConventionPlugin"
+        }
     }
 }
