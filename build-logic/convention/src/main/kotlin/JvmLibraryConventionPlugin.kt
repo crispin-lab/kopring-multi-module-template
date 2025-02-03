@@ -10,7 +10,8 @@ class JvmLibraryConventionPlugin : Plugin<Project> {
             plugins(
                 "java-library",
                 "org.jetbrains.kotlin.jvm",
-                "org.jmailen.kotlinter"
+                "org.jmailen.kotlinter",
+                "kotest.library"
             )
             configureKotlinJvm()
             linterGitHooksInstall()

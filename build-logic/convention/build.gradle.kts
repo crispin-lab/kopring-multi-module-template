@@ -16,5 +16,9 @@ gradlePlugin {
             id = "jvm.library"
             implementationClass = "JvmLibraryConventionPlugin"
         }
+        register("kotestLibrary") {
+            id = "kotest.library"
+            implementationClass = "KotestLibraryConventionPlugin"
+        }
     }
 }
